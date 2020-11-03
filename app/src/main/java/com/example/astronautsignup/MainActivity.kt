@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         submitButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+            //save info
         }
     }
 
