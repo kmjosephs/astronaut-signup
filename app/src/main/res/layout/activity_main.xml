@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="0.157" />
 
     <EditText
-        android:id="@+id/firstName"
+        android:id="@+id/firstname"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -111,25 +111,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/website" />
-
-    <!--    <Button-->
-<!--        android:id="@+id/submitButton"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="start"-->
-<!--        android:layout_marginStart="48dp"-->
-<!--        android:layout_marginTop="16dp"-->
-<!--        android:layout_marginEnd="48dp"-->
-<!--        android:layout_marginBottom="64dp"-->
-<!--        android:clickable="true"-->
-<!--        android:enabled="false"-->
-<!--        android:text="@string/submit"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.497"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/password"-->
-<!--        app:layout_constraintVertical_bias="0.609" />-->
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
