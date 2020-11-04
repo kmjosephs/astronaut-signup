@@ -1,13 +1,17 @@
 <resources>
     <string name="app_name">Astronaut Sign Up</string>
     <string name="signup_heading">Sign Up!</string>
-    <string name="help_text">The Spaceship Skeld is looking for tons of new Crew Mates!</string>
+    <string name="help_text">The Spaceship Skeld is looking for tons of new crewmates!</string>
     <string name="first_name">First Name</string>
-    <string name="email_address">Email Address*</string>
-    <string name="password">Password*</string>
+    <string name="email_address">Email Address (Required)</string>
+    <string name="password">Password (Required)</string>
     <string name="website">Website</string>
     <string name="submit">Submit</string>
     <string name="congrats">Congrats, </string>
     <string name="confirmation_text">Your astronaut application has been accepted. The details below will be shared with your fellow crewmates.</string>
     <string name="sign_in">Sign In</string>
+    <string name="email_error">Email address is required</string>
+    <string name="password_error">Password is required</string>
+    <string name="red_astronaut_image">astronaut making shushing gesture</string>
+    <string name="purple_astronaut_image">purple among us astronaut character</string>
 </resources>

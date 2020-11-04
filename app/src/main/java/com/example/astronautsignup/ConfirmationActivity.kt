@@ -15,6 +15,7 @@ class ConfirmationActivity : AppCompatActivity() {
         val website = intent.getStringExtra(EXTRA_WEBSITE)
         val details : String = firstname + "\n" + email + "\n" + website
 
+
         val firstNameText = findViewById<TextView>(R.id.firstNameTextView).apply{
             text = firstname
         }
