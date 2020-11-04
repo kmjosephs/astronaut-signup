@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
     private fun submitForm() {
         // convert fields to strings to use in putExtra
         val firstnameString = firstnameEditText.text.toString()
-        val  emailString = emailEditText.text.toString()
+        val emailString = emailEditText.text.toString()
         val passwordString = passwordEditText.text.toString()
         val websiteString = websiteEditText.text.toString()
 
@@ -49,7 +49,8 @@ class MainActivity : AppCompatActivity() {
             putExtra(EXTRA_WEBSITE, websiteString)
         }
 
-        // if email or password is empty show a toast
+        // if email or password is empty show a toast, prevent submission
+        // toasts are working on my device but not the emulator
         if (emailString.isEmpty()) {
             var  emailToast = Toast.makeText(this, R.string.email_error, Toast.LENGTH_SHORT)
             emailToast.setGravity(Gravity.BOTTOM, 0, 0)

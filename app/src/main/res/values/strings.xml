@@ -8,7 +8,7 @@
     <string name="website">Website</string>
     <string name="submit">Submit</string>
     <string name="congrats">Congrats, </string>
-    <string name="confirmation_text">Your astronaut application has been accepted. The details below will be shared with your fellow crewmates.</string>
+    <string name="confirmation_text">Your astronaut application has been accepted! The details below will be shared with your fellow crewmates.</string>
     <string name="sign_in">Sign In</string>
     <string name="email_error">Email address is required</string>
     <string name="password_error">Password is required</string>

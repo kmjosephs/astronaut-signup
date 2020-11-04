@@ -7,29 +7,17 @@
     tools:context=".ConfirmationActivity">
 
     <TextView
-        android:id="@+id/congrats"
+        android:id="@+id/congratsTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="58dp"
-        android:text="@string/congrats"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/confirmationTextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:id="@+id/firstNameTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginStart="207dp"
         android:layout_marginTop="64dp"
-        android:layout_marginEnd="120dp"
+        android:layout_marginEnd="204dp"
         android:layout_marginBottom="58dp"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/confirmationTextView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -43,7 +31,7 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstNameTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/congratsTextView" />
 
     <Button
         android:id="@+id/signinButton"
