@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
         submitButton.setOnClickListener {
             submitForm()
         }
-
     }
 
     private fun submitForm() {
