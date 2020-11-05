@@ -20,7 +20,7 @@ A non-functional sign-in button is present.
 
 ## Extra features
 
-- Compatible with the TalkBack screen reader provided by Android. All fields have hints for the reader and images have content descriptions. (Non-functional images don't need it but I included it as an example)
+- Added accessibility. This app is compatible with the TalkBack screen reader provided by Android. All fields have hints for the reader and images have content descriptions. (Non-functional images don't need it but I included it as an example)
 - Material theme to provide a uniform UI/UX experience
 
 ## Screenshots
