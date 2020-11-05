@@ -12,6 +12,6 @@
     <string name="sign_in">Sign In</string>
     <string name="email_error">Email address is required</string>
     <string name="password_error">Password is required</string>
-    <string name="red_astronaut_image">astronaut making shushing gesture</string>
-    <string name="purple_astronaut_image">purple among us astronaut character</string>
+    <string name="red_astronaut_image">decorative image of astronaut making shushing gesture</string>
+    <string name="purple_astronaut_image">decorative image purple among us astronaut character</string>
 </resources>

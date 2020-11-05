@@ -100,7 +100,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/password" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -109,6 +109,8 @@
         android:layout_marginEnd="174dp"
         android:layout_marginBottom="162dp"
         android:text="@string/submit"
+        app:icon="@android:drawable/ic_menu_send"
+        app:iconGravity="end"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
