@@ -22,3 +22,5 @@ A non-functional sign-in button is present.
 
 - Compatible with the TalkBack screen reader provided by Android. All fields have hints for the reader and images have content descriptions. (Non-functional images don't need it but I included it as an example)
 - Material theme to provide a uniform UI/UX experience
+
+<img width="420" alt="Screen Shot 1" src="https://user-images.githubusercontent.com/7035819/98191830-a5046100-1edf-11eb-92a6-91b66f8d89d0.png">
